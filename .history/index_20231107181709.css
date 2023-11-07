@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+#header {
+    padding-top: 150px;
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/bg-44.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    background-position-y: 10px;
+    background-position-x: 500px;
+    background-color: #A1AAB1;
+    color: white;
+}
+
+.header__title-sm {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.container {
+    padding: 50px 270px;
+}
+
+.header__button {
+    width: 100px;
+    height: 36px;
+    border-color: white;
+    color: black;
+    font-weight: 700;
+    background-color: white;
+}
+
+#nav {
+    color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item--title__bold {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav__item--title__thin {
+    font-size: 13px;
+    font-weight: 00;
+}
+
+.nav__item--img {
+    padding: 00px 270px;
+    display: flex;
+    color: white;
+
+}
+
+.nav__item__promos {
+    width: 100%;
+    height: 40vh;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 0.5px solid #f5eeee;
+}
+
+.nav__item__promos--title {
+    font-size: 20px;
+
+}
+
+.nav__item__promos-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav__item__promos1 {
+    background-image: url("./images/product1.png");
+}
+
+.nav__item__promos2 {
+    background-image: url("./images/product2.png");
+}
+
+/* main */
+
+.main__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main__products {
+    display: flex;
+ 
+  
+}
+
+
+.main__product {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.product__name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.product__price {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* hover */
+
+.containe {
+    display: inline-block;
+
+    max-width: 315px;
+    min-width: 230px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.containe .main__product__button {
+    background-color: #000000d4;
+
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.containe figcaption {
+    top: 92%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(100%, -100%) scale(0.5);
+    transform: translate(-100%, -100%) scale(0.5);
+    opacity: 0;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+.containe:hover figcaption,
+.containe.hover figcaption {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* .containe:before,
+.containe:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    content: '';
+    opacity: 0.9;
+    z-index: 1;
+}
+
+
+
+.containe img {
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.containe figcaption {
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(100%, -100%) scale(0.5);
+    transform: translate(-100%, -100%) scale(0.5);
+    opacity: 0;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+.containe a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.containe:hover>img,
+.containe.hover>img {
+    opacity: 0.5;
+}
+
+
+.containe:hover figcaption,
+.containe.hover figcaption {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+} */
+
+/* hover */

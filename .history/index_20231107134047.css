@@ -1,0 +1,12 @@
+* {
+    margin: 10;
+    padding: 10;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+    color: aliceblue;
+}
+#header {
+    background-image: url("./images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
